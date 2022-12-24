@@ -47,19 +47,18 @@
             </div>
         </nav>
     </header>
-    <hr>
-    <hr>
+
     <h2>Informacion de Contacto</h2>
-    <hr>
-    <hr>
+
     <main>
         <section>
-            <fieldset>
+            <fieldset class="borde-form">
                 <form class="espace-form">
                     <legend>Solicitud para Turnos y Consultas</legend>
                     <hr>
+                    <div>Sexo</div>
                     <div>
-                        Sexo
+                        
                         <label for="opcion-1">|Masculino</label>
                         <input type="radio" name="ejemplo" id="opcion-1">
                         <label for="opcion-2">| Femenino</label>
@@ -75,7 +74,6 @@
                         <input type="text" placeholder="Apellido">
                     </div>
                     <hr>
-
                     <div class="labelcontacto" >
                         <label for="Telefono">Telefono</label>
                         <input type="number" placeholder="Numero">
@@ -83,24 +81,29 @@
                         <input type="email" name="E-mail" id="E-mail" placeholder="E-mail">
                     </div>
                     <hr>
-                    <div>
-                        Elija una opcion
+                    <div>Elija una opcion</div>
+                    <div>                        
                         <label for="consulta">Consulta</label>
                         <input type="radio" name="ejemplo" id="consulta">
                         <label for="turno">| Turno</label>
                         <input type="radio" name="ejemplo" id="turno">
+                        <label for="compras">| Compras</label>
+                        <input type="radio" name="ejemplo" id="compras">
                         <label for="otro">| Otro</label>
                         <input type="radio" name="ejemplo" id="otro">
                     </div>
                     <hr>
                     <div>
                         <label for="mensaje">Envianos un mensaje</label>
+                    </div>
+                    <div>
                         <textarea id="mensaje" cols="50" rows="5" maxlength="250" input type="text"
                             placeholder="Mensaje"></textarea>
                     </div>
-                    <div>
-                        <input type="submit" value="Enviar">
-                        <input type="reset" value="Limpiar Formulario">
+                    <hr>
+                    <div class="margen-d">
+                        <input type="submit" value="Enviar" class="btn-contacto">
+                        <input type="reset" value="Limpiar Formulario" class="btn-contacto">
                     </div>
             </fieldset>
             </form>
@@ -114,13 +117,19 @@
                 ¡Te invitamos a seguirnos en nuestras redes sociales!
             </h3>
         </div>
-        <div class="iconos-redes">
-            <a href="https://www.facebook.com/riks.ss" target="_blank" id="redes-footer">Ir al Perfil de facebook<img
-                    src="../assets/img/icono-face.jpg" alt="logo facebook"></a>
-            <a href="https://www.instagram.com/nutre_teams/" target="_blank" id="redes-footer">Ir al Perfil de
-                Instagram<img src="../assets/img/icono-insta.jpg" alt="logo instagram"></a>
-            <a href="https://wa.me/ 59381154434516" target="_blank" id="redes-footer">Contactanos via whatsapp<img
-                    src="../assets/img/icono-what.jpg" alt="logo whatsapp"></a>
+        <!--Grid system de Bootstrap-->        
+        <div class="container" >
+            <div class="row">
+                <div class="col-sm">
+                    <img src="../assets/img/icono-face.jpg" alt="logo facebook" class="iconos-redes"><a href="https://www.facebook.com/riks.ss" target="_blank" id="redes-footer"></a>
+                
+                    <a href="https://www.instagram.com/nutre_teams/" target="_blank" id="redes-footer"><img src="../assets/img/icono-insta.jpg" alt="logo instagram" class="iconos-redes"></a>
+                
+                    <a href="https://wa.me/ 59381154434516" target="_blank" id="redes-footer"><img src="../assets/img/icono-what.jpg" alt="logo whatsapp" class="iconos-redes"></a>
+
+                    <a href="https://twitter.com/Nutre_teams" target="_blank" id="redes-footer"><img src="../assets/img/logo-twitter.jpg" alt="logo twitter" class="iconos-redes"></a>
+                </div>
+            </div>
         </div>
         <div class="posit-fot">
             <small> &copy; | Creado por The Programer Team | - Todos los derechos reservados.</small>

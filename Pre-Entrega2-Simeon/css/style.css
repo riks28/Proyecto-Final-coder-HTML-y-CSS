@@ -21,6 +21,11 @@ header {
     font-size: x-large;
 }
 
+.carrito{
+    margin-right: ;
+}
+
+
 a {
     text-decoration: none;
     color: brown;
@@ -81,18 +86,31 @@ ol li {
 }
 
 .logo-nutre {
+    margin: 0% 15%;
     width: 50%;
     padding: .5rem;
-    border-radius: 40px;
+    border-radius: 27px;
     display: flex;
-    align-items: center;
-    flex-wrap: wrap;
+    
 }
 
 .navbar-brand {
     font-size: 1.3rem;
 
 }
+
+.nav-item{
+    
+    border-radius: 10px;
+}
+
+.nav-item:hover{
+    background: linear-gradient(195deg, rgba(219, 167, 21, 0.548), rgba(245, 242, 242, 0.719));
+    border-radius: 10px;
+    font-size: 107%;
+    transition: 0.6s;
+}
+
 
 .grid.index {
     display: grid;
@@ -104,6 +122,10 @@ ol li {
     margin: 2%;
 }
 
+.borde-form{
+    border-radius: 30px;
+}
+
 .titulo-form {
     text-align: center;
     font-size: 140%;
@@ -111,9 +133,22 @@ ol li {
 
 .gradiente {
     text-align: center;
-    background: linear-gradient(0deg, rgba(247, 246, 243, 0.747), rgba(255, 123, 0, 0.815));
+    background: linear-gradient(50deg, rgba(230, 169, 3, 0.911), rgba(252, 252, 252, 0.445));
 }
 
+.margen-d{
+    text-align: end;
+}
+
+.btn-contacto{
+    padding-left: 5px;
+    padding-right: 5px;
+    background: linear-gradient(0deg, rgba(255, 187, 0, 0.911), rgba(252, 252, 252, 0.445));
+    font-weight: bolder;
+    border-radius: 10px;
+    border-color: rgb(255, 255, 240);
+    color: rgb(105, 62, 12);
+}
 /*Pagina Productos*/
 
 .card {
@@ -139,14 +174,11 @@ ol li {
     font-size: 90%;
     text-align: justify;
 }
-.video-productos {
-    margin: 2% 30% 2% 30%;
-}
 
 /*Pagina Historia*/
 .grid-historia {
     display: grid;
-    grid-template-columns: 39% 61%;
+    grid-template-columns: 41% 55%;
     justify-content: center;
 
 }
@@ -164,9 +196,10 @@ ol li {
     text-align: justify;
     width: 87%;
     margin: 2%;
-    background-color: rgba(223, 200, 1, 0.473);
-    padding: 15px;
-    border-radius: 10px;
+    height: 74%;
+    background-image: linear-gradient(rgba(231, 219, 40, 0.76), rgba(255, 72, 0, 0.801));
+    padding: 35px;
+    border-radius: 30px;
 }
 
 /*Pagina Galeria*/
@@ -180,7 +213,6 @@ ol li {
     background-color: rgba(223, 200, 1, 0.473);
     padding: 15px;
     border-radius: 10px;
-
 }
 
 .index-space-galeria {
@@ -188,9 +220,25 @@ ol li {
     flex-direction: column;
     align-items: center;
     list-style-type: none;
-
 }
 
+/*Transicion en galeria*/
+.p-galeria{
+    background-color: rgba(223, 200, 1, 0.473);
+    width: 87%;
+    height: 100%;
+}
+
+.p-galeria:hover{
+    background-color: rgb(122, 70, 7);
+    color: beige;
+    width: 89%;
+    height:130%;
+}
+
+.p-galeria{
+    transition: 1.5s;
+}
 
 /*Footer*/
 footer div img {
@@ -201,10 +249,16 @@ footer div img {
 .redes-footer {
     display: inline;
     width: 30%;
-    font-size: 2rem;
+    font-size: 1.4rem;
+    font-weight: bolder;
     color: rgb(165, 59, 11);
     margin-bottom: 80rem;
 
+}
+
+.iconos-redes{
+    width: 50px;
+    margin: .5rem;
 }
 
 .gradiente {

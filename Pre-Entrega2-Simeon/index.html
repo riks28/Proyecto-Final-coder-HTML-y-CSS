@@ -23,12 +23,12 @@
 <body>
     <!--BARRA DE NAV DE BOOTSTRAP-->
     <header>
-
+        
         <nav class="navbar navbar-expand-lg bg-rgba(255, 123, 0, 0.815)">
             <a href="./index.html"><img src="./assets/img/logo-nutreteam1.jpg" alt="" class="logo-nutre">
             </a>
             <div class="container-fluid">
-                <a class="navbar-brand" href="./index.html">Inicio</a>
+                
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -36,6 +36,9 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./pages/index.html">Inicio</a>
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="./pages/productos.html">Productos</a>
                         </li>
@@ -51,8 +54,8 @@
                     </ul>
                 </div>
             </div>
-        </nav>
-
+            
+        </nav>        
     </header>
 
     <hr>
@@ -145,20 +148,25 @@
                 ¡Te invitamos a seguirnos en nuestras redes sociales!
             </h3>
         </div>
-        <div class="iconos-redes">
-            <a href="https://www.facebook.com/riks.ss" target="_blank" id="redes-footer">Ir al Perfil de facebook<img
-                    src="./assets/img/icono-face.jpg" alt="logo facebook"></a>
-            <a href="https://www.instagram.com/nutre_teams/" target="_blank" id="redes-footer">Ir al Perfil de
-                Instagram<img src="./assets/img/icono-insta.jpg" alt="logo instagram"></a>
-            <a href="https://wa.me/ 59381154434516" target="_blank" id="redes-footer">Contactanos via whatsapp<img
-                    src="./assets/img/icono-what.jpg" alt="logo whatsapp"></a>
+
+        <!--Grid system de Bootstrap-->        
+        <div class="container" >
+            <div class="row">
+                <div class="col-sm">
+                    <a href="https://www.facebook.com/riks.ss" target="_blank" id="redes-footer"><img src="./assets/img/icono-face.jpg" alt="logo facebook" class="iconos-redes"></a>
+                
+                    <a href="https://www.instagram.com/nutre_teams/" target="_blank" id="redes-footer"><img src="./assets/img/icono-insta.jpg" alt="logo instagram" class="iconos-redes"></a>
+                
+                    <a href="https://wa.me/ 59381154434516" target="_blank" id="redes-footer"><img src="./assets/img/icono-what.jpg" alt="logo whatsapp" class="iconos-redes"></a>
+
+                    <a href="https://twitter.com/Nutre_teams" target="_blank" id="redes-footer"><img src="./assets/img/logo-twitter.jpg" alt="logo twitter" class="iconos-redes" class="iconos-redes"></a>
+                </div>
+            </div>
         </div>
         <div class="posit-fot">
             <small> &copy; | Creado por The Programer Team | - Todos los derechos reservados.</small>
         </div>
     </footer>
-
-
 
 
     <!--CDN Bootstrap-->
