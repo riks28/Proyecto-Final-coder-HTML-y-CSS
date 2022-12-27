@@ -21,15 +21,11 @@ header {
     font-size: x-large;
 }
 
-.carrito{
-    margin-right: ;
-}
-
-
 a {
     text-decoration: none;
     color: brown;
     font-weight: bolder;
+
 }
 
 h1 {
@@ -180,12 +176,12 @@ ol li {
     display: grid;
     grid-template-columns: 41% 55%;
     justify-content: center;
-
+    
 }
 
 .img-h {
     width: 90%;
-    margin: 10%;
+    margin: 12%;
     border-radius: 35px;
 }
 
@@ -195,10 +191,10 @@ ol li {
     font-weight: bolder;
     text-align: justify;
     width: 87%;
-    margin: 2%;
+    margin: 7%;
     height: 74%;
     background-image: linear-gradient(rgba(231, 219, 40, 0.76), rgba(255, 72, 0, 0.801));
-    padding: 35px;
+    padding: 45px;
     border-radius: 30px;
 }
 
@@ -220,6 +216,7 @@ ol li {
     flex-direction: column;
     align-items: center;
     list-style-type: none;
+    margin-left: 5rem;
 }
 
 /*Transicion en galeria*/
@@ -283,8 +280,41 @@ footer div img {
         margin: 20%
     }
 
+    textarea {
+        width: 15rem;
+    }
+
+    fieldset {
+        margin-left: 5%;
+        padding-left: 0%;
+        padding-top: 1%;
+        padding-right: 0%;
+        padding-bottom: 2%;
+        width: 90%;
+
+    }
+
+    .labelcontacto {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .grid-historia {
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .img-h {
+        width: 68%;
+        margin: 15%;
+        padding: 1rem;
+    }
 
 }
+
 
 @media screen and (max-width:971px) {
     .imgdeporte {
@@ -311,6 +341,41 @@ footer div img {
         color: rgb(13, 14, 14);
     }
 
+    textarea {
+        width: 15rem;
+    }
+
+    fieldset {
+        margin-left: 5%;
+        padding-left: 0%;
+        padding-top: 1%;
+        padding-right: 0%;
+        padding-bottom: 2%;
+        width: 90%;
+
+    }
+
+    .labelcontacto {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .grid-historia {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .img-h {
+        width: 68%;
+        margin: 15%;
+        padding: 1rem;
+    }
+
+    .parrafo {
+        
+    }
 }
 
 @media screen and (max-width:650px) {
