@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*border: solid 1px red;*/
+    font-family: "Crimson Text", serif;
+    font-family: "Playball", cursive;
+    font-family: "PT Serif", serif;
+  }
+
+  .logo-nutre {
+    margin: 0% 15%;
+    width: 50%;
+    padding: .5rem;
+    border-radius: 27px;
+    display: flex;
+    
+}
+
+.navbar-brand {
+    font-size: 1.3rem;
+
+}
+
+.nav-item{
+    
+    border-radius: 10px;
+}
+
+.nav-item:hover{
+    background: linear-gradient(195deg, rgba(219, 167, 21, 0.548), rgba(245, 242, 242, 0.719));
+    border-radius: 10px;
+    font-size: 107%;
+    transition: 0.6s;
+}
+  
+  body {
+    background-image: url(../assets/img/healthy-lunch.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  header {
+    background: linear-gradient(50deg, rgba(230, 169, 3, 0.911), rgba(252, 252, 252, 0.445));
+    display: flex;
+    font-size: x-large;
+  }
+  
+  a {
+    text-decoration: none;
+    color: brown;
+    font-weight: bolder;
+  }
+  
+  h1 {
+    text-align: center;
+    color: rgb(163, 82, 24);
+    background-color: rgba(223, 200, 1, 0.473);
+    background-size: 100%;
+    width: 100%;
+    font-size: 300%;
+  }
+  
+  h2 {
+    text-align: center;
+    margin: 2%;
+    font-size: 200%;
+    font-weight: bold;
+    color: rgb(112, 63, 6);
+    background-color: rgba(223, 200, 1, 0.473);
+  }
+
+/*Footer*/
+footer div img {
+    border-radius: 36%;
+    width: 2%;
+}
+
+.redes-footer {
+    display: inline;
+    width: 30%;
+    font-size: 1.4rem;
+    font-weight: bolder;
+    color: rgb(165, 59, 11);
+    margin-bottom: 80rem;
+
+}
+
+.iconos-redes{
+    width: 50px;
+    margin: .5rem;
+}
+
+.gradiente {
+    position: absolute;
+    padding-bottom: 0%;
+    width: 100%;
+}
+
+.imgdeporte {
+    width: 28rem;
+    margin-left: 4rem;
+
+}
+
+// extend//
+.parrafos{
+  color: rgb(112, 63, 6);
+  font-size: large;
+  font-weight: bolder;
+}

@@ -1,0 +1,49 @@
+/*Fomulario de contacto*/
+.espace-form {
+    margin: 2%;
+}
+
+.borde-form{
+    border-radius: 30px;
+}
+
+.titulo-form {
+    text-align: center;
+    font-size: 140%;
+}
+
+.gradiente {
+    text-align: center;
+    background: linear-gradient(50deg, rgba(230, 169, 3, 0.911), rgba(252, 252, 252, 0.445));
+}
+
+.margen-d{
+    text-align: end;
+}
+
+.btn-contacto{
+    padding-left: 5px;
+    padding-right: 5px;
+    background: linear-gradient(0deg, rgba(255, 187, 0, 0.911), rgba(252, 252, 252, 0.445));
+    font-weight: bolder;
+    border-radius: 10px;
+    border-color: rgb(255, 255, 240);
+    color: rgb(105, 62, 12);
+}
+
+fieldset {
+    margin-left: 15%;
+    padding-left: 3%;
+    padding-top: 1%;
+    padding-right: 3%;
+    padding-bottom: 2%;
+    width: 60%;
+}
+
+fieldset {
+    background: linear-gradient(50deg, rgba(255, 187, 0, 0.911), rgba(252, 252, 252, 0.445));
+    font-weight: 900;
+    font-size: large;
+    color: rgb(112, 63, 6);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}

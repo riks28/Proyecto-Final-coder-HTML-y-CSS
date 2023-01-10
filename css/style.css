@@ -1,0 +1,382 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*border: solid 1px red;*/
+  font-family: "Crimson Text", serif;
+  font-family: "Playball", cursive;
+  font-family: "PT Serif", serif;
+}
+
+.logo-nutre {
+  margin: 0% 15%;
+  width: 50%;
+  padding: 0.5rem;
+  border-radius: 27px;
+  display: flex;
+}
+
+.navbar-brand {
+  font-size: 1.3rem;
+}
+
+.nav-item {
+  border-radius: 10px;
+}
+
+.nav-item:hover {
+  background: linear-gradient(195deg, rgba(219, 167, 21, 0.548), rgba(245, 242, 242, 0.719));
+  border-radius: 10px;
+  font-size: 107%;
+  transition: 0.6s;
+}
+
+body {
+  background-image: url(../assets/img/healthy-lunch.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  background: linear-gradient(50deg, rgba(230, 169, 3, 0.911), rgba(252, 252, 252, 0.445));
+  display: flex;
+  font-size: x-large;
+}
+
+a {
+  text-decoration: none;
+  color: brown;
+  font-weight: bolder;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(163, 82, 24);
+  background-color: rgba(223, 200, 1, 0.473);
+  background-size: 100%;
+  width: 100%;
+  font-size: 300%;
+}
+
+h2 {
+  text-align: center;
+  margin: 2%;
+  font-size: 200%;
+  font-weight: bold;
+  color: rgb(112, 63, 6);
+  background-color: rgba(223, 200, 1, 0.473);
+}
+
+/*Footer*/
+footer div img {
+  border-radius: 36%;
+  width: 2%;
+}
+
+.redes-footer {
+  display: inline;
+  width: 30%;
+  font-size: 1.4rem;
+  font-weight: bolder;
+  color: rgb(165, 59, 11);
+  margin-bottom: 80rem;
+}
+
+.iconos-redes {
+  width: 50px;
+  margin: 0.5rem;
+}
+
+.gradiente {
+  position: absolute;
+  padding-bottom: 0%;
+  width: 100%;
+}
+
+.imgdeporte {
+  width: 28rem;
+  margin-left: 4rem;
+}
+
+.parrafos, .p-galeria {
+  color: rgb(112, 63, 6);
+  font-size: large;
+  font-weight: bolder;
+}
+
+.grid.index {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.grid-historia {
+  display: grid;
+  grid-template-columns: 41% 55%;
+  justify-content: center;
+}
+
+/*Pagina Principal*/
+.index-space {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 100%;
+  align-items: center;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+ol li {
+  list-style-type: none;
+  font-size: 1.3rem;
+  color: chocolate;
+}
+
+/*Pagina Productos*/
+.card {
+  margin: 5%;
+  font-weight: bolder;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 15px;
+  background-color: rgba(223, 200, 1, 0.473);
+}
+
+#card-total {
+  /*display: grid;
+  grid-template-columns: 40% 30%;
+  align-items: center;*/
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: center;
+  align-items: center;
+  color: rgb(13, 14, 14);
+}
+
+.card-texto {
+  font-size: 90%;
+  text-align: justify;
+}
+
+/*Pagina Galeria*/
+.p-galeria {
+  /*color: rgb(112, 63, 6);
+  font-size: large;
+  font-weight: bolder;*/
+  width: 87%;
+  margin: 2%;
+  background-color: rgba(223, 200, 1, 0.473);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.index-space-galeria {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+  margin-left: 5rem;
+}
+
+/*Transicion en galeria*/
+.p-galeria {
+  background-color: rgba(223, 200, 1, 0.473);
+  width: 87%;
+  height: 100%;
+}
+
+.p-galeria:hover {
+  background-color: rgb(122, 70, 7);
+  color: beige;
+  width: 89%;
+  height: 130%;
+}
+
+.p-galeria {
+  transition: 1.5s;
+}
+
+/*Pagina Historia*/
+.img-h {
+  width: 90%;
+  margin: 12%;
+  border-radius: 35px;
+}
+
+.parrafo {
+  color: rgb(34, 21, 7);
+  font-size: large;
+  font-weight: bolder;
+  text-align: justify;
+  width: 87%;
+  margin: 7%;
+  height: 74%;
+  background-image: linear-gradient(rgba(231, 219, 40, 0.76), rgba(255, 72, 0, 0.801));
+  padding: 45px;
+  border-radius: 30px;
+}
+
+/*Fomulario de contacto*/
+.espace-form {
+  margin: 2%;
+}
+
+.borde-form {
+  border-radius: 30px;
+}
+
+.titulo-form {
+  text-align: center;
+  font-size: 140%;
+}
+
+.gradiente {
+  text-align: center;
+  background: linear-gradient(50deg, rgba(230, 169, 3, 0.911), rgba(252, 252, 252, 0.445));
+}
+
+.margen-d {
+  text-align: end;
+}
+
+.btn-contacto {
+  padding-left: 5px;
+  padding-right: 5px;
+  background: linear-gradient(0deg, rgba(255, 187, 0, 0.911), rgba(252, 252, 252, 0.445));
+  font-weight: bolder;
+  border-radius: 10px;
+  border-color: rgb(255, 255, 240);
+  color: rgb(105, 62, 12);
+}
+
+fieldset {
+  margin-left: 15%;
+  padding-left: 3%;
+  padding-top: 1%;
+  padding-right: 3%;
+  padding-bottom: 2%;
+  width: 60%;
+}
+
+fieldset {
+  background: linear-gradient(50deg, rgba(255, 187, 0, 0.911), rgba(252, 252, 252, 0.445));
+  font-weight: 900;
+  font-size: large;
+  color: rgb(112, 63, 6);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+@media screen and (max-width: 1200px) {
+  .imgdeporte {
+    width: 20rem;
+    margin-left: 6rem;
+  }
+  .img-h {
+    margin: 20%;
+  }
+  textarea {
+    width: 15rem;
+  }
+  fieldset {
+    margin-left: 5%;
+    padding-left: 0%;
+    padding-top: 1%;
+    padding-right: 0%;
+    padding-bottom: 2%;
+    width: 90%;
+  }
+  .labelcontacto {
+    display: flex;
+    flex-direction: column;
+  }
+  .grid-historia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .img-h {
+    width: 68%;
+    margin: 15%;
+    padding: 1rem;
+  }
+}
+@media screen and (max-width: 971px) {
+  .imgdeporte {
+    width: 15rem;
+    margin-left: 6rem;
+  }
+  fieldset {
+    margin-left: 5%;
+    padding-left: 0%;
+    padding-top: 1%;
+    padding-right: 0%;
+    padding-bottom: 2%;
+    width: 90%;
+  }
+  #card-total {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(13, 14, 14);
+  }
+  textarea {
+    width: 15rem;
+  }
+  fieldset {
+    margin-left: 5%;
+    padding-left: 0%;
+    padding-top: 1%;
+    padding-right: 0%;
+    padding-bottom: 2%;
+    width: 90%;
+  }
+  .labelcontacto {
+    display: flex;
+    flex-direction: column;
+  }
+  .grid-historia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .img-h {
+    width: 68%;
+    margin: 15%;
+    padding: 1rem;
+  }
+}
+@media screen and (max-width: 650px) {
+  .imgdeporte {
+    width: 17rem;
+    margin-left: 1rem;
+    padding: 1rem;
+  }
+  textarea {
+    width: 15rem;
+  }
+  fieldset {
+    margin-left: 5%;
+    padding-left: 0%;
+    padding-top: 1%;
+    padding-right: 0%;
+    padding-bottom: 2%;
+    width: 90%;
+  }
+  .labelcontacto {
+    display: flex;
+    flex-direction: column;
+  }
+  .grid-historia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .img-h {
+    width: 68%;
+    margin: 15%;
+    padding: 1rem;
+  }
+} /*# sourceMappingURL=style.css.map */
+
+/*# sourceMappingURL=style.css.map */

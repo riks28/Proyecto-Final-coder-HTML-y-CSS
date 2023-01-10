@@ -1,0 +1,23 @@
+/*Pagina Productos*/
+
+.card {
+    margin: 5%;
+    font-weight: bolder;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    background-color: rgba(223, 200, 1, 0.473);
+}
+
+
+#card-total {
+@include grid-colum;
+    align-items: center;
+    color: rgb(13, 14, 14);
+    
+}
+
+.card-texto{
+    font-size: 90%;
+    text-align: justify;
+}

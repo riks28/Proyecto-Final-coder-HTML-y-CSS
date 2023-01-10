@@ -1,0 +1,16 @@
+/*Pagina Principal*/
+.index-space {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+    align-items: center;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+ol li {
+    list-style-type: none;
+    font-size: 1.3rem;
+    color: chocolate
+}

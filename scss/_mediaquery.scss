@@ -1,0 +1,148 @@
+@media screen and (max-width: 1200px) {
+    .imgdeporte {
+        width: 20rem;
+        margin-left: 6rem;
+    }
+
+    .img-h {
+        margin: 20%
+    }
+
+    textarea {
+        width: 15rem;
+    }
+
+    fieldset {
+        margin-left: 5%;
+        padding-left: 0%;
+        padding-top: 1%;
+        padding-right: 0%;
+        padding-bottom: 2%;
+        width: 90%;
+
+    }
+
+    .labelcontacto {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .grid-historia {
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .img-h {
+        width: 68%;
+        margin: 15%;
+        padding: 1rem;
+    }
+
+}
+
+
+@media screen and (max-width:971px) {
+    .imgdeporte {
+        width: 15rem;
+        margin-left: 6rem;
+    }
+
+
+    fieldset {
+        margin-left: 5%;
+        padding-left: 0%;
+        padding-top: 1%;
+        padding-right: 0%;
+        padding-bottom: 2%;
+        width: 90%;
+
+    }
+
+    #card-total {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: rgb(13, 14, 14);
+    }
+
+    textarea {
+        width: 15rem;
+    }
+
+    fieldset {
+        margin-left: 5%;
+        padding-left: 0%;
+        padding-top: 1%;
+        padding-right: 0%;
+        padding-bottom: 2%;
+        width: 90%;
+
+    }
+
+    .labelcontacto {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .grid-historia {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .img-h {
+        width: 68%;
+        margin: 15%;
+        padding: 1rem;
+    }
+
+    .parrafo {
+        
+    }
+}
+
+@media screen and (max-width:650px) {
+    .imgdeporte {
+        width: 17rem;
+        margin-left: 1rem;
+        padding: 1rem;
+    }
+
+    textarea {
+        width: 15rem;
+    }
+
+    fieldset {
+        margin-left: 5%;
+        padding-left: 0%;
+        padding-top: 1%;
+        padding-right: 0%;
+        padding-bottom: 2%;
+        width: 90%;
+
+    }
+
+    .labelcontacto {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .grid-historia {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .img-h {
+        width: 68%;
+        margin: 15%;
+        padding: 1rem;
+    }
+
+}
