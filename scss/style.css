@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /*border: solid 1px red;*/
+  border: solid 1px red;
   font-family: "Crimson Text", serif;
   font-family: "Playball", cursive;
   font-family: "PT Serif", serif;
@@ -377,4 +377,6 @@ fieldset {
     margin: 15%;
     padding: 1rem;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
