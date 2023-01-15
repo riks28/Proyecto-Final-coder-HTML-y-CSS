@@ -1,14 +1,14 @@
 //Reset de css Clsico
-@import "./globales";
+@import "./globales/globales";
 //Definicion de variables
-@import "./variables";
+@import "./variables/variables";
 //Grids
-@import "./layout";
+@import "./vistas/layout";
 //Paginas
-@import "./inicio";
-@import "./productos";
-@import "./galeria";
-@import "./historia";
-@import "./contacto";
+@import "./paginas/inicio";
+@import "./paginas/productos";
+@import "./paginas/galeria";
+@import "./paginas/historia";
+@import "./paginas/contacto";
 /*Media Query*/
 @import "./mediaquery";

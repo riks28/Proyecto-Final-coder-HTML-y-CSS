@@ -132,11 +132,6 @@ ol li {
   color: chocolate;
 }
 
-.flex-container {
-  display: flex;
-  flex-direction: column;
-}
-
 /*Pagina Productos*/
 .card {
   margin: 5%;
@@ -271,7 +266,6 @@ fieldset {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-/*Media Query*/
 @media screen and (max-width: 1200px) {
   .imgdeporte {
     width: 20rem;
@@ -395,4 +389,6 @@ fieldset {
     display: flex;
     flex-direction: column;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map *//*# sourceMappingURL=estilo.css.map */

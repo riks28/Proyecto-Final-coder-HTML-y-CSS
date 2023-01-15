@@ -141,5 +141,17 @@
         margin: 15%;
         padding: 1rem;
     }
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
 
+@media screen and (max-width: 410px) {
+    .flex-container {
+        width: 15rem;
+        margin-left: 2rem;
+        display: flex;
+        flex-direction: column;
+    }
 }
