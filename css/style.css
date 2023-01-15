@@ -377,6 +377,21 @@ fieldset {
     margin: 15%;
     padding: 1rem;
   }
-} /*# sourceMappingURL=style.css.map */
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+  }
+} 
+
+@media screen and (max-width: 410px) {
+  .flex-container {
+    width: 15rem;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
 
 /*# sourceMappingURL=style.css.map */

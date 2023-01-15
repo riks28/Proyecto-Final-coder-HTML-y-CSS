@@ -1,9 +1,14 @@
-@import "globales.scss";
-@import "variables.scss";
-@import "layout.scss";
-@import "inicio.scss";
-@import "productos.scss";
-@import "galeria.scss";
-@import "historia.scss";
-@import "contacto.scss";
-@import "mediaquery.scss";
+//Reset de css Clsico
+@import "./globales";
+//Definicion de variables
+@import "./variables";
+//Grids
+@import "./layout";
+//Paginas
+@import "./inicio";
+@import "./productos";
+@import "./galeria";
+@import "./historia";
+@import "./contacto";
+/*Media Query*/
+@import "./mediaquery";
