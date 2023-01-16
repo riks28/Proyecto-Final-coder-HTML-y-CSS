@@ -98,7 +98,8 @@ footer div img {
   margin-left: 4rem;
 }
 
-.parrafos, .p-galeria {
+.parrafos,
+.p-galeria {
   color: rgb(112, 63, 6);
   font-size: large;
   font-weight: bolder;
@@ -130,6 +131,11 @@ ol li {
   list-style-type: none;
   font-size: 1.3rem;
   color: chocolate;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
 }
 
 /*Pagina Productos*/
@@ -266,6 +272,7 @@ fieldset {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
+/*Media Query*/
 @media screen and (max-width: 1200px) {
   .imgdeporte {
     width: 20rem;
@@ -390,5 +397,4 @@ fieldset {
     flex-direction: column;
   }
 }
-/*# sourceMappingURL=style.css.map */
 /*# sourceMappingURL=style.css.map *//*# sourceMappingURL=estilo.css.map */
