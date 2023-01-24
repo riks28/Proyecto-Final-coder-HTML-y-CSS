@@ -9,7 +9,7 @@
     }
 
     textarea {
-        width: 15rem;
+        width: 50rem;
     }
 
     fieldset {
@@ -41,6 +41,14 @@
         padding: 1rem;
     }
 
+    #card-total {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+        color: rgb(13, 14, 14);
+    }
+
 }
 
 
@@ -70,7 +78,7 @@
     }
 
     textarea {
-        width: 15rem;
+        width: 30rem;
     }
 
     fieldset {
@@ -154,5 +162,9 @@
         margin-left: 2rem;
         display: flex;
         flex-direction: column;
+    }
+    
+    fieldset {
+        font-size:medium;
     }
 }
